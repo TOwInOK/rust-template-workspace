@@ -9,8 +9,8 @@ Project template for rust workspace project with my credentials
 - .env file
 - Configurated Cargo.toml
 - Configurated .gitignore
-- Configurated .rust-toolchain.toml
-- Configurated .rustfmt.toml
+- Configurated rust-toolchain.toml
+- Configurated rustfmt.toml
 
 ---
 
