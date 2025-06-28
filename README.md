@@ -1,5 +1,5 @@
-# rust-template-default
-Default project template for rust project with my credentials
+# rust-template-workspace
+Project template for rust workspace project with my credentials
 
 # Contains
 - CI/CD pipeline on tag `v*.*.*`
