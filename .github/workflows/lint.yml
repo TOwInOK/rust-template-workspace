@@ -27,5 +27,8 @@ jobs:
           env-vars: "CARGO RUST"
           cache-on-failure: true
 
+      - name: test
+        run: cargo test --tests --bins --examples # instruct some packages if needed
+
       - name: lint
         run: cargo clippy # instruct some packages if needed

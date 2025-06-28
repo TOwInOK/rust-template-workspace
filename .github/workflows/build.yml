@@ -2,7 +2,7 @@
 # - Change name of output files
 # - Change lint command if needed
 
-name: Release CLI
+name: Build and push
 
 on:
   push:
@@ -29,6 +29,9 @@ jobs:
         with:
           env-vars: "CARGO RUST"
           cache-on-failure: true
+
+      - name: test
+        run: cargo test --tests --bins --examples # instruct some packages if needed
 
       - name: lint
         run: cargo clippy # instruct some packages if needed
